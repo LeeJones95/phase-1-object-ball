@@ -118,7 +118,7 @@ function inside of our `homeTeamName` function and operate on the object:
 function homeTeamName()
   let object = gameObject()
   return object['home']['teamName']
-}
+
 
 console.log(homeTeamName())
 // logs "Brooklyn Nets"
